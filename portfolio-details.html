@@ -125,31 +125,76 @@
       <!-- End Breadcrumbs -->
 
       <!-- ======= Portfolio Details Section ======= -->
-      <section id="portfolio-details" class="portfolio-details">
+      <section
+        id="portfolio-details1"
+        class="portfolio-details"
+        style="display: none"
+      >
         <div class="container">
           <div class="row gy-4">
             <div class="col-lg-8">
               <div class="portfolio-details-slider swiper">
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
-                    <img
-                      src="assets/img/portfolio/portfolio-details-1.jpg"
-                      alt=""
-                    />
+                    <img src="assets/img/portfolio/p1s1.png" alt="" />
                   </div>
 
                   <div class="swiper-slide">
-                    <img
-                      src="assets/img/portfolio/portfolio-details-2.jpg"
-                      alt=""
-                    />
+                    <img src="assets/img/portfolio/p1s2.png" alt="" />
+                  </div>
+
+                  <
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Technologies Used</h3>
+                <ul>
+                  <li>
+                    <strong>Frontend</strong>: Flutter used mobile application
+                  </li>
+                  <li><strong>Backend</strong>: Python</li>
+                  <li><strong>Database</strong>: SQLite, Firebase</li>
+                  <li>
+                    <strong>Other</strong>: Machine Learning Techniques, Azure
+                    Deployment
+                  </li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+                <h2>Project Details</h2>
+                <p>
+                  Mobile application for users to predict and analyze daily
+                  routine activities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="portfolio-details2"
+        class="portfolio-details"
+        style="display: none"
+      >
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/p2.png" alt="" />
                   </div>
 
                   <div class="swiper-slide">
-                    <img
-                      src="assets/img/portfolio/portfolio-details-3.jpg"
-                      alt=""
-                    />
+                    <img src="assets/img/portfolio/p2.png" alt="" />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/p2.png" alt="" />
                   </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -184,6 +229,19 @@
           </div>
         </div>
       </section>
+
+      <script>
+        // Get the fragment identifier from the URL
+        const fragment = window.location.hash.substring(1); // Removes the '#'
+
+        // Show the corresponding section based on the fragment identifier
+        if (fragment === "portfolio-details1") {
+          document.getElementById("portfolio-details1").style.display = "block";
+        } else if (fragment === "portfolio-details2") {
+          document.getElementById("portfolio-details2").style.display = "block";
+        }
+      </script>
+
       <!-- End Portfolio Details Section -->
     </main>
     <!-- End #main -->
