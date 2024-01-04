@@ -640,12 +640,12 @@ section {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  width: 1650px;
-  margin-left: 100px;
+  width: 1900px;
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 800px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
