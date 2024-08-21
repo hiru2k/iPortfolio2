@@ -357,7 +357,64 @@
         </div>
       </section>
       <section
-        id="portfolio-details4"
+      id="portfolio-details4"
+      class="portfolio-details"
+      style="display: none"
+    >
+      <div class="container">
+        <div class="custom-row">
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/p4s1.png" alt="" />
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/p4s2.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/p4s3.png" alt="" />
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="portfolio-info">
+              <h3>Technologies Used</h3>
+              <ul>
+                <li>
+                  <strong>Frontend</strong>: React.js
+                </li>
+                <li><strong>Backend</strong>: Spring Boot web APIs</li>
+                <li><strong>Database</strong>: MongoDB</li>
+                
+              </ul>
+            </div>
+            <div class="col-lg-8">
+            <div class="portfolio-description">
+              <h2>Project Details</h2>
+              <p>
+                This application is fully responsive fitness-focused social media platform where users 
+                 share and track their fitness journeys. The platform allows users to upload and share up 
+                 to three photos or videos (up to 30 seconds) showcasing their workouts, healthy meals, and
+                  progress, with the option to add descriptions. Users can also post updates on their current 
+                  workout status, using predefined templates to easily input metrics like distance run or weight lifted. 
+                  Additionally, users can create, customize, and share workout plans and meal plans, complete with routines,
+                   exercises, recipes, and nutritional information, which can be categorized by dietary preferences. 
+                 
+              </p>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section
+        id="portfolio-details5"
         class="portfolio-details"
         style="display: none"
       >
@@ -367,22 +424,13 @@
               <div class="portfolio-details-slider swiper">
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/p4s1.png" alt="" />
+                    <img src="assets/img/portfolio/p5s1.png" alt="" />
                   </div>
 
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/p4s2.png" alt="" />
+                    <img src="assets/img/portfolio/p5s2.png" alt="" />
                   </div>
-                  <div class="swiper-slide">
-                    <img src="assets/img/portfolio/p4s3.png" alt="" />
-                  </div>
-
-                  <div class="swiper-slide">
-                    <img src="assets/img/portfolio/p4s4.png" alt="" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="assets/img/portfolio/p4s5.png" alt="" />
-                  </div>
+                 
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
@@ -466,7 +514,7 @@
         </div>
       </section>
       <section
-        id="portfolio-details5"
+        id="portfolio-details6"
         class="portfolio-details"
         style="display: none"
       >
@@ -476,11 +524,11 @@
               <div class="portfolio-details-slider swiper">
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/p5s1.png" alt="" />
+                    <img src="assets/img/portfolio/p6s1.png" alt="" />
                   </div>
 
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/p5s2.png" alt="" />
+                    <img src="assets/img/portfolio/p6s2.png" alt="" />
                   </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -531,6 +579,8 @@
           document.getElementById("portfolio-details4").style.display = "block";
         } else if (fragment === "portfolio-details5") {
           document.getElementById("portfolio-details5").style.display = "block";
+        }else if (fragment === "portfolio-details6") {
+          document.getElementById("portfolio-details6").style.display = "block";
         }
       </script>
 
